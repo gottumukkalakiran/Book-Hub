@@ -1,0 +1,335 @@
+.bookshelves-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 30px;
+  width: 90%;
+  max-width: 1110px;
+  min-height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .bookshelves-container {
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.shelves-container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .shelves-container {
+    width: 30%;
+    padding: 30px;
+    margin-right: 30px;
+    min-width: 230px;
+    max-width: 280px;
+    background-color: #ffffff;
+  }
+}
+.bookshelves-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334155;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .bookshelves-text {
+    margin-top: 0px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.header-and-books-container {
+  width: 100%;
+  min-height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .header-and-books-container {
+    min-height: 100vh;
+  }
+}
+.shelf-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .shelf-items-container {
+    flex-direction: column;
+  }
+}
+.search-input-container {
+  background-color: #edeff1;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  max-width: 400px;
+}
+.search-input {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 16px 8px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-self: stretch;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 16px;
+  }
+}
+.search-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0px 15px;
+}
+.search-icon {
+  font-size: 16px;
+  color: #94a3b8;
+  margin: 8px 10px;
+}
+@media screen and (min-width: 768px) {
+  .search-icon {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .book-shelf-header-container {
+    display: none;
+  }
+}
+.desktop-search-input-container {
+  width: 50%;
+  min-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelf-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.header-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #334155;
+}
+.book-shelves-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.book-shelves-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.book-shelves-failure-view-image {
+  width: 250px;
+  height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelves-failure-view-image {
+    width: 400px;
+    height: 200px;
+  }
+}
+.book-shelves-failure-view-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #475569;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelves-failure-view-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.try-again-btn {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 16px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .try-again-btn {
+    padding: 12px 24px;
+  }
+}
+.all-books-container {
+  min-height: 80vh;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .all-books-container {
+    margin-bottom: 100px;
+    padding-top: 30px;
+    flex-direction: row;
+  }
+}
+.left-side-books-container {
+  min-height: 80vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .left-side-books-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .left-side-books-container {
+    width: 50%;
+  }
+}
+.right-side-books-container {
+  min-height: 80vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .right-side-books-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .right-side-books-container {
+    width: 50%;
+  }
+}
+.book-items-details-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.no-books-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.no-books-view-image {
+  width: 250px;
+  height: 170px;
+}
+@media screen and (min-width: 768px) {
+  .no-books-view-image {
+    height: 330px;
+    width: 470px;
+  }
+}
+
+.no-books-view-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .no-books-view-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #334155;
+  }
+}
+
+/* Dark Theme */
+.bookshelves-dark-heading-text {
+  color: #ffffff;
+}
+.bookshelves-dark-description-text {
+  color: #d3d3d3;
+}
+@media screen and (min-width: 768px) {
+  .bookshelves-dark-bg {
+    background-color: #272727;
+  }
+}
+.dark-search-input-container {
+  background-color: #202020;
+  border: 1px solid #475569;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.dark-search-input {
+  background-color: #000000;
+  color: #cbd5e1;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  align-self: stretch;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .dark-search-input {
+    font-size: 16px;
+  }
+}
+.dark-search-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0px 15px;
+}
+.dark-search-icon {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 8px 10px;
+}
+@media screen and (min-width: 768px) {
+  .dark-search-icon {
+    font-size: 18px;
+  }
+}

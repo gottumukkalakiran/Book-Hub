@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 4px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.home-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1e293b;
+}
+
+.home-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.find-books-mobile-btn {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 20px;
+  gap: 8px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Dark Theme */
+.home-dark-heading-text {
+  color: #ffffff;
+}
+.home-dark-description-text {
+  color: #d3d3d3;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding-top: 12px;
+  }
+
+  .home-heading {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .home-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .find-books-mobile-btn {
+    display: none;
+  }
+}

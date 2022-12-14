@@ -1,0 +1,320 @@
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.book-details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.book-details-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.book-details-failure-view-image {
+  width: 250px;
+  height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .book-details-failure-view-image {
+    width: 450px;
+    height: 230px;
+  }
+}
+.book-details-failure-view-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #475569;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .book-details-failure-view-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.try-again-btn {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 16px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .try-again-btn {
+    padding: 12px 24px;
+  }
+}
+.details-container {
+  margin-bottom: 100px;
+  border-radius: 16px;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .details-container {
+    background: #ffffff;
+    margin-bottom: 100px;
+    padding: 50px;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+  }
+}
+.cover-pic-and-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cover-pic-and-info-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.book-details-cover-pic {
+  width: 220px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-details-cover-pic {
+    width: 200px;
+  }
+}
+.info-container {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .info-container {
+    margin-left: 30px;
+  }
+}
+.book-details-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334155;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-details-title {
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.book-details-author-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-details-author-name {
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .rating-container {
+    justify-content: flex-start;
+  }
+}
+.rating-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin: 0px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .rating-text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.book-details-rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin: 0px;
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .book-details-rating {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.book-details-status-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-details-status-text {
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.book-details-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-details-status {
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.horizontal-line {
+  border: 0.5px solid #94a3b8;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    border: 1px solid #94a3b8;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.about-author-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .about-author-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.about-author-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .about-author-description {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+.about-book-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .about-book-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.about-book-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .about-book-description {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+.add-to-favorites-button {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Inter';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  width: 200px;
+  font-size: 16px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .add-to-favorites-button {
+    font-size: 18px;
+  }
+}
+
+/* Dark Theme */
+.book-item-details-dark-heading-text {
+  color: #ffffff;
+}
+.book-item-details-dark-description-text {
+  color: #d3d3d3;
+}
+@media screen and (min-width: 768px) {
+  .book-item-details-dark-bg {
+    background-color: #272727;
+  }
+}

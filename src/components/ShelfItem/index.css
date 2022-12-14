@@ -1,0 +1,56 @@
+.shelf-item {
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .shelf-item {
+    margin-right: 0px;
+  }
+}
+.shelf-button {
+  padding: 4px 8px;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0284c7;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .shelf-button {
+    border: none;
+    padding: 0px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #64748b;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+/* Dark Theme */
+.shelf-item-dark-theme-text {
+  color: #d3d3d3;
+}
+
+/* Active */
+
+.active-shelf {
+  background: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .active-shelf {
+    color: #0284c7;
+    background: transparent;
+    border: none;
+  }
+}
